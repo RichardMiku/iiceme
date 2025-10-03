@@ -6,25 +6,176 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #12affa;
+  --ifm-color-primary-dark: #05a1ec;
+  --ifm-color-primary-darker: #0598df;
+  --ifm-color-primary-darkest: #047eb8;
+  --ifm-color-primary-light: #2cb8fb;
+  --ifm-color-primary-lighter: #39bcfb;
+  --ifm-color-primary-lightest: #61cafc;
+  --ifm-heading-font-family: 'CNMingLiU', 'Nunito', "Microsoft YaHei", "PingFang SC", sans-serif;
+  --ifm-font-family-base: 'CNMingLiU', 'Nunito', "Microsoft YaHei", "PingFang SC", sans-serif;
+  --ifm-font-family-monospace: 'CNMingLiU', 'Nunito', "Microsoft YaHei", "PingFang SC", sans-serif;
+  --ifm-font-size-base: 120%;
+  --ifm-code-font-size: 102%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #12affa;
+  --ifm-color-primary-dark: #05a1ec;
+  --ifm-color-primary-darker: #0598df;
+  --ifm-color-primary-darkest: #047eb8;
+  --ifm-color-primary-light: #2cb8fb;
+  --ifm-color-primary-lighter: #39bcfb;
+  --ifm-color-primary-lightest: #61cafc;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.theme-layout-navbar{
+  font-weight: 700;
+  font-size: large;
+}
+
+.navbar__title{
+  font-weight: 700;
+}
+
+/* ---------------------------------- */
+/* 字体系列名称：PMingLiu */
+/* ---------------------------------- */
+@font-face {
+  /* 为这个规则取一个唯一的名称 */
+  font-family: 'CNMingLiU'; 
+  
+  /* 关键：使用 local() 引导浏览器在用户的本地系统中查找字体 */
+  /* 通常 'PMingLiU' 是 Windows 中的新细明体，'MingLiU' 是细明体 */
+  src: local("PMingLiU"), /* 优先查找新细明体 */
+       local("MingLiU");  /* 其次查找细明体 */
+       
+  font-weight: normal;
+  font-style: normal;
+  
+  /* 关键：设置中文的 Unicode 范围（C, J, K 统一表意文字），
+     确保此规则只在渲染汉字时生效 */
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+2CEB0-2EBEF;
+}
+
+/* ---------------------------------- */
+/* 字体系列名称：Nunito */
+/* 文件格式：.ttf (truetype) */
+/* 字体路径：/Font/Nunito/文件名.ttf */
+/* ---------------------------------- */
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/Font/Nunito/Nunito-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
 }

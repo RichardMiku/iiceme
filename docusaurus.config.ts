@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'iice',
+  tagline: 'i ice-scream',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://i.iice.me',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'iice', // Usually your GitHub org/user name.
+  projectName: 'iice-website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -31,8 +31,22 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hant',
+    locales: ['zh-Hant', 'zh-Hans', 'en'],
+    localeConfigs: {
+      'zh-Hant': {
+        label: 'Default',
+        htmlLang: 'zh-Hant-TW',
+      },
+      'zh-Hans': {
+        label: '简体中文',
+        htmlLang: 'zh-Hans-CN',
+      },
+      'en': {
+        label: 'English',
+        htmlLang: 'en-US',
+      }
+    }
   },
 
   presets: [
@@ -75,52 +89,58 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'iice',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'iice Logo',
+        src: 'img/logo.jpg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'iiceSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Explor',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/whoami', label: 'Whoami', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/RichardMiku',
           label: 'GitHub',
           position: 'right',
         },
+        {type: 'localeDropdown', position: 'right'},
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'Portal',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Explor',
               to: '/docs/intro',
+            },
+            {
+              label: 'Blog',
+              to: '/blog',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Communication',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/richardmikupro',
+            },
+            {
+              label: 'Telegram',
+              href: 'https://t.me/richardmikupro',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/phrichardmiku/',
             },
           ],
         },
@@ -128,17 +148,14 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/RichardMiku/iiceme',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `<p>Copyright © ${new Date().getFullYear()} iice, All Rights Reserved. Built with Docusaurus.</p>
+      `,
     },
     prism: {
       theme: prismThemes.github,

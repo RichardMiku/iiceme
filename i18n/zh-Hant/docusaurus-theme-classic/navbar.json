@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "iice",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "iice Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Explor": {
+    "message": "Explor",
+    "description": "Navbar item with label Explor"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Whoami": {
+    "message": "Whoami",
+    "description": "Navbar item with label Whoami"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

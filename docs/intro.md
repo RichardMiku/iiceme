@@ -8,4 +8,4 @@ sidebar_position: 1
 
 ## 近期文档
 
-+ [MoneyPrinterTurbo](/docs/AIGC/Tools/MoneyPrinterTurbo.mdx) 一款短视频快速生产工具
++ [MoneyPrinterTurbo](/docs/AIGC/Tools/MoneyPrinterTurbo) 一款短视频快速生产工具

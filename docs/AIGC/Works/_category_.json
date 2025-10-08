@@ -1,0 +1,12 @@
+{
+    "label": "Works",
+    "position": 2,
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "title": "AIGC 工作坊藝術作品",
+        "description": "AIGC 工作坊藝術作品展示中心",
+        "slug": "/AIGC/Works"
+    }
+}

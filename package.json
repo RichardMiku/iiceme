@@ -13,7 +13,8 @@
 		"write-translations": "docusaurus write-translations",
 		"write-heading-ids": "docusaurus write-heading-ids",
 		"typecheck": "tsc",
-		"preview": "npm run build && wrangler dev"
+		"preview": "npm run build && wrangler dev",
+		"pagesdeploy": "npm run build && wrangler pages deploy ./build --project-name=iiceme --branch=master"
 	},
 	"dependencies": {
 		"@docusaurus/core": "3.9.1",

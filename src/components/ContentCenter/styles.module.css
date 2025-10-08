@@ -1,0 +1,14 @@
+/* src/components/Center.module.css */
+
+.centerContainer {
+  /* 关键的居中样式 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 允许容器内的元素居中对齐 */
+  text-align: center; 
+  
+  /* 为了让 flexbox 布局在图片外部生效，通常还需要设置宽度100% */
+  width: 100%;
+}

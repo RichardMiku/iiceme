@@ -1,0 +1,12 @@
+{
+    "label": "AIGC",
+    "position": 2,
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "title": "AIGC 工作坊",
+        "description": "AI Generated Content Workshop",
+        "slug": "/AIGC"
+    }
+}

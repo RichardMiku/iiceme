@@ -1,0 +1,12 @@
+{
+    "label": "Tools",
+    "position": 1,
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "title": "AIGC Tools",
+        "description": "用於 AIGC 的工具和資源",
+        "slug": "/AIGC/Tools"
+    }
+}

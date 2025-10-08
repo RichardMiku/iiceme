@@ -1,0 +1,317 @@
+---
+sidebar_position: 1
+description: MoneyPrinterTurbo is an AI-powered tool that can generate high-quality short videos with one click. Just provide a topic or keyword, and it will automatically create the script, fetch video materials, generate subtitles, add background music, and finally compose an HD short video.
+---
+
+import ContentCenter from '@site/src/components/ContentCenter';
+
+# MoneyPrinterTurbo
+
+## Overview
+
++ GitHub: [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+
+An AI-powered tool that lets you generate high-quality short videos with a single click.
+
+Simply provide a video topic or a keyword, and it will automatically generate: script, stock clips, subtitles, background music — then render a high-definition short video.
+
+<p align="center">**Web UI**</p>
+
+<ContentCenter>
+
+![webui.jpg](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMJaOH3sqX7-gZaFL60-2g8sALdFmIAAqoLaxvkYxBXLCTOlgqWn6YBAAMCAAN3AAM2BA)
+
+</ContentCenter>
+
+### Video Examples 📺
+
+> If the video loads slowly, please be patient.
+
+#### Landscape 16:9
+
+<p align="center">▶️ **"Why Exercise Matters"** </p>
+
+<ContentCenter>
+    <video src="https://img.240021.xyz/api/cfile/BAACAgUAAxkBAAN8aOIEv8D2OJGtIqFg6YoKiLKBmZgAApcYAALdBRBXUQOPkOnehhI2BA" 
+    controls width="356" height="200">
+        Sorry, your browser does not support embedded video.
+    </video>
+</ContentCenter>
+
+#### Portrait 9:16
+
+<p align="center">▶️ **"How to Add Joy to Life"** </p>
+
+<ContentCenter>
+    <video src="https://img.240021.xyz/api/cfile/BAACAgUAAxkBAAN7aOIBLpI9YsygwbjNwBbHJCYmoMYAAooYAALdBRBX1iXfxdFw0SU2BA" 
+    controls width="200" height="356">
+        Sorry, your browser does not support embedded video.
+    </video>
+</ContentCenter>
+
+## Quick Start 🚀
+
+### Official Installation Guide
+
+:::note Official Windows One-Click Package
+Download the one‑click startup package, extract it and use directly (make sure the path contains **no Chinese characters**, **no special symbols**, **no spaces**)
+
+- Baidu Netdisk (v1.2.6): https://pan.baidu.com/s/1wg0UaIyXpO3SqIpaq790SQ?pwd=sbqx  Code: sbqx
+- Google Drive (v1.2.6): https://drive.google.com/file/d/1HsbzfT7XunkrCrHw5ncUjFX8XX4zAuUh/view?usp=sharing
+
+After downloading, it's recommended to **double-click** `update.bat` first to update to the **latest code**, then double-click `start.bat` to launch.
+
+Once started, a browser will open automatically (if it's blank, try using **Chrome** or **Edge** instead)
+:::
+
+:::tip Manual Deployment
+Manual deployment is more complex. Please return to the overview and open the MoneyPrinterTurbo GitHub repository for details.
+:::
+
+:::note Startup Steps
+After downloading, it's recommended to **double-click** `update.bat` first to update to the **latest code**, then double-click `start.bat` to launch.
+
+Once started, a browser will open automatically (if it's blank, try using **Chrome** or **Edge** instead)
+:::
+
+:::info Use GPU for Video Encoding Acceleration
+If your computer has a GPU, refer to **[How to Change the Video Encoder](#how-to-change-the-video-encoder)** to enable GPU-accelerated encoding for much faster speed.
+:::
+
+## Getting Started
+
+### Basic Configuration
+
+1. Configure a Pexels API Key: [Get one here](https://www.pexels.com/api/)
+
+If you've already configured it, you can skip this step.
+
+<details>
+  <summary>Click to expand the Pexels API Key registration guide</summary>
+
+<ContentCenter>
+  ![Snipaste_2025-10-08_13-40-05.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMQaOX5Q3wNpVC3EaEFmy8Jygtd-ocAAqQLaxt9KjBXKwRx3bRzwGwBAAMCAAN3AAM2BA)
+</ContentCenter>
+
+Register an account
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMRaOX6XRJsVCiFRqGMdhcweD5LFQIAAqcLaxt9KjBXlYvTvriJgEQBAAMCAAN5AAM2BA)
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMSaOX6ieNy07-vZeJQb9m1zgzQj7AAAqgLaxt9KjBXEC-10EPYTUwBAAMCAAN4AAM2BA)
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMTaOX7BPipU3Wvz3X5vzlJnnGUtjIAAqkLaxt9KjBXmX6Hm43MK-MBAAMCAAN4AAM2BA)
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMUaOX7jiRKZzJDgOnSAZW4rWin0vkAAqsLaxt9KjBXojqAM1IgPs0BAAMCAAN4AAM2BA)
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMVaOX75YtvylSjf5gAAXlP3WBtPCuUAAKsC2sbfSowVwIbkfiSduEoAQADAgADeAADNgQ)
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMWaOX8UHnjrNnautqXHtHfJSDJHd0AAq0Laxt9KjBXAXow8TqOjckBAAMCAAN4AAM2BA)
+</ContentCenter>
+
+Return to the API page: [Jump now](https://www.pexels.com/api/)
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMXaOX8luraYdTNO8Vo-9PaItfGZd4AAq4Laxt9KjBXzThxkmYjOQYBAAMCAAN3AAM2BA)
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMYaOX-RT3XNmxqO1EgSV8BbEsHs88AAq8Laxt9KjBXu_rkKYKGzOwBAAMCAAN4AAM2BA)
+</ContentCenter>
+
+> Application purpose:
+
+```text
+I plan to use Pexels videos for AI-powered secondary creation. Specifically, I will use them as base footage to train and generate novel video content using generative AI models (such as Style Transfer or GANs). The original videos will be integrated by using their visual data (texture, motion, composition) as input sources for the AI to learn from and transform. The final AI-generated output will be shared across my social media channels and potentially in educational presentations, clearly adhering to Pexels' licensing requirements for attribution and non-commercial/appropriate commercial use.
+```
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMZaOX-1nX_iSxrVvb6hiUi0OgIoiAAArALaxt9KjBX3CwoteEyw30BAAMCAAN4AAM2BA)
+</ContentCenter>
+
+After obtaining your API Key, go back to the MoneyPrinterTurbo settings page and paste it into the Pexels API Key field.
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMaaOX_csZCxd5P_pVgMMMjjlztwsEAArILaxt9KjBX2oxYuMLKg2kBAAMCAAN4AAM2BA)
+</ContentCenter>
+
+</details>
+
+2. Configure AI API Key
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMbaOYBB5mpZ-1zev-m2c7X_RymAAGfAAK2C2sbfSowV4-2u-BN88vZAQADAgADeAADNgQ)
+</ContentCenter>
+
+If you are not sure what a large-model API Key is, you can skip this and use the built‑in AI chat (e.g. Doubao, deepseek, etc.).
+
+> Here we leave the large-model API Key empty and directly use **Doubao** as an example.
+
+### Generate a Video
+
+1. Decide on a video topic
+
+> Example: ***How to Add Joy to Life***
+
+2. Chat with **Doubao** to generate the [Script] and [Keywords]
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMcaOYCbUT6vR6dpDgAAZ5-7RgsXUzNAAK4C2sbfSowV5JLqDQ8rcP6AQADAgADeQADNgQ)
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMdaOYCpJrXKvYxGJ1BxHTcu3-3H5QAAroLaxt9KjBX23BX7inMwAoBAAMCAAN4AAM2BA)
+</ContentCenter>
+
+Useful prompts:
+
+> Explain in one short paragraph how to add more joy to life.
+
+> I want to edit a video about this topic. Please generate search keywords related to it in the format: keywords1,2,3,... The keywords should be in English.
+
+3. Fill in the required fields in MoneyPrinterTurbo
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMfaOYD53SJAlA99R4lRZUS7lJ4UYYAAr8Laxt9KjBXN_TrJSKU6HMBAAMCAAN4AAM2BA)
+</ContentCenter>
+
+**Other settings can be adjusted to your preference.**
+
+4. Click **Generate Video** and wait for the process to complete.
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMgaOYFBkBwboFwuIrQK1zCdvyy6PoAAsMLaxt9KjBXCj2mdS2nMEcBAAMCAAN3AAM2BA)
+</ContentCenter>
+
+### Result Preview
+
+<ContentCenter>
+    <video src="https://img.240021.xyz/api/cfile/BAACAgUAAxkBAAN9aOYJa51GOTj0onP_SrZ0hCYCkyYAAuAaAAJC4DFX0hg9aNTsr0U2BA" 
+    controls width="200" height="356">
+        Sorry, your browser does not support embedded video.
+    </video>
+</ContentCenter>
+
+## How to Change the Video Encoder
+
+By default, the video is encoded using the `libx264` encoder (CPU-based), which is slower. If your computer has an NVIDIA GPU, you can switch to `h264_nvenc` for GPU-accelerated encoding and much faster speed.
+
+:::danger Warning
+Always run the `ffmpeg` command to see which encoders your system actually supports before changing the encoder. Otherwise, video generation may fail.
+
+> ***`nvenc` refers to NVIDIA GPU encoders***
+
+> ***This guide only demonstrates NVIDIA GPUs. For other brands, see the section at the end.***
+:::
+
+### Check Supported Encoders
+
+1. After extracting, open the `MoneyPrinterTurbo-Portable-Windows-1.2.6` folder.
+
+The location of `ffmpeg.exe` is shown below:
+
+```text title="MoneyPrinterTurbo-Portable-Windows-1.2.6"
+MoneyPrinterTurbo-Portable-Windows-1.2.6
+  ├─ Lib
+  │   └─ ffmpeg
+  │         └─ ffmpeg-7.0-essentials_build
+  │                                    └─ ffmpeg.exe
+```
+
+2. Inside the folder containing `ffmpeg.exe`, hold `Shift` and **right-click on a blank area**, then choose **Open PowerShell window here** (or **Open command window here**).
+
+<details>
+ <summary>Click to expand example output</summary>
+
+```powershell title="PowerShell"
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Miku\Downloads\MoneyPrinterTurbo-Portable-Windows-1.2.6\lib\ffmpeg\ffmpeg-7.0-essentials_build>
+```
+
+</details>
+
+3. Paste and run the following command:
+
+```powershell title="PowerShell"
+./ffmpeg.exe
+```
+This will list all encoders supported by the current ffmpeg build.
+
+<details>
+ <summary>Click to expand example output</summary>
+
+```powershell title="PowerShell"
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Miku\Downloads\MoneyPrinterTurbo-Portable-Windows-1.2.6\lib\ffmpeg\ffmpeg-7.0-essentials_build> ./ffmpeg.exe
+ffmpeg version 7.0-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Universal media converter
+usage: ffmpeg [options] [[infile options] -i infile]... {[outfile options] outfile}...
+
+Use -h to get full help or, even better, run 'man ffmpeg'
+```
+
+</details>
+
+<p align="center"> **Full window screenshot** </p>
+
+<ContentCenter>
+![Snipaste_2025-10-05_14-17-06.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMKaOIOQ1MYJIIta9uPOQyycC73TYkAAsgLaxvkYxBXDSmrP86L--IBAAMCAAN5AAM2BA)
+</ContentCenter>
+
+4. If the output contains `--enable-nvenc`, it means NVIDIA GPU accelerated encoding is supported.
+
+### Modify the Encoder
+
+1. Open the folder `MoneyPrinterTurbo-Portable-Windows-1.2.6\MoneyPrinterTurbo\app\services` and locate the `video.py` file.
+
+<ContentCenter>
+  ![Snipaste_2025-10-08_13-13-44.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMMaOXzG-uUKasTqAOUxaUyFgO-neEAApsLaxt9KjBXHeSedOImRCQBAAMCAAN4AAM2BA)
+</ContentCenter>
+
+2. Open `video.py` with a text editor (recommended: VSCode, Notepad++).
+
+> This demo uses Notepad.
+
++ Right-click `video.py` -> **Open with** -> **Notepad**
++ If Notepad is not listed: choose **Choose another app** -> **More apps** -> **Look for another app on this PC**, then select `C:\Windows\System32\notepad.exe`.
+
+<ContentCenter>
+  ![snipaste.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMNaOXz_xdYtA6fdg6fWf-zAnoAAV2VAAKcC2sbfSowVxuYMkZI3rIFAQADAgADeAADNgQ)
+  ![Snipaste_2025-10-08_13-20-43.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMOaOX0u4mrvjVuGWZe3Ag5TrCK6x4AAp0Laxt9KjBXND5z08PAwvEBAAMCAAN4AAM2BA)
+</ContentCenter>
+
+3. Copy the following content and replace the contents of `video.py`:
+
+<details>
+ <summary>Click to expand code</summary>
+
+```python title="video.py"
+# ...full code identical to the Chinese version...
+```
+
+</details>
+
+<ContentCenter>
+  ![Snipaste_2025-10-08_13-25-15.png](https://img.240021.xyz/api/cfile/AgACAgUAAyEGAAS0A577AAMPaOX1zxWhCmqdIJrWF-m3GbSmVMIAAqALaxt9KjBXDciF8eRwbREBAAMCAAN5AAM2BA)
+</ContentCenter>
+
+:::tip Tip
+At this point the encoder has been successfully modified. You can now use your NVIDIA GPU to accelerate video generation.
+:::
+
+### Other GPU Brands
+
+In the modified `video.py`, locate the following line:
+
+```python
+video_codec = "h264_nvenc"
+```
+
+Replace `h264_nvenc` with the encoder name for your GPU brand. Refer back to **[Check Supported Encoders](#check-supported-encoders)**.

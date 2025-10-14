@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/RichardMiku/iiceme"
   },
   "copyright": {
-    "message": "<p>Copyright © 2025 iice, All Rights Reserved. Built with Docusaurus.</p>\n      ",
+    "message": "<p>Copyright © 2025 iice, All Rights Reserved. Built with Docusaurus.</p>\n      <p><a href=\"https://beian.miit.gov.cn\" target=\"_blank\" >滇ICP备2025065243号-2</a></p>\n      ",
     "description": "The footer copyright"
   }
 }

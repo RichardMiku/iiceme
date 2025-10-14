@@ -35,7 +35,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`ice-scream`}
-      description="Description will go into a meta tag in <head />">
+      description="Explore the world with iice!">
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}

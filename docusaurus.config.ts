@@ -49,6 +49,24 @@ const config: Config = {
     }
   },
 
+  scripts: [
+    {
+      src: '/js-helper/sha1.min.js',
+      position: 'head',
+    },
+    {
+      src: 'https://res.wx.qq.com/open/js/jweixin-1.6.0.js',
+      position: 'head',
+    },
+    {
+    src: '/js-helper/pure-sign.js',
+    position: 'head',
+  },
+    {
+    src: '/js-helper/wx-share.js',
+    position: 'head',
+  }],
+
   presets: [
     [
       'classic',
@@ -155,6 +173,7 @@ const config: Config = {
         },
       ],
       copyright: `<p>Copyright © ${new Date().getFullYear()} iice, All Rights Reserved. Built with Docusaurus.</p>
+      <p><a href="https://beian.miit.gov.cn" target="_blank" >滇ICP备2025065243号-2</a></p>
       `,
     },
     prism: {

@@ -2,5 +2,29 @@
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
+  },
+  "sidebar.iiceSidebar.category.AIGC": {
+    "message": "AIGC",
+    "description": "The label for category AIGC in sidebar iiceSidebar"
+  },
+  "sidebar.iiceSidebar.category.AIGC.link.generated-index.title": {
+    "message": "AIGC 工作坊",
+    "description": "The generated-index page title for category AIGC in sidebar iiceSidebar"
+  },
+  "sidebar.iiceSidebar.category.AIGC.link.generated-index.description": {
+    "message": "AI Generated Content Workshop",
+    "description": "The generated-index page description for category AIGC in sidebar iiceSidebar"
+  },
+  "sidebar.iiceSidebar.category.Tools": {
+    "message": "Tools",
+    "description": "The label for category Tools in sidebar iiceSidebar"
+  },
+  "sidebar.iiceSidebar.category.Tools.link.generated-index.title": {
+    "message": "AIGC Tools",
+    "description": "The generated-index page title for category Tools in sidebar iiceSidebar"
+  },
+  "sidebar.iiceSidebar.category.Tools.link.generated-index.description": {
+    "message": "用於 AIGC 的工具和資源",
+    "description": "The generated-index page description for category Tools in sidebar iiceSidebar"
   }
 }
